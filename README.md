@@ -1,0 +1,2 @@
+# loucoin
+LouCoin Calculations Code
