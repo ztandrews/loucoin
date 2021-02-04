@@ -7,6 +7,8 @@ Created on Sat Jan 30 13:16:24 2021
 
 '''
 Program for when I have time to manually update loucoin.com
+It's pretty simple. It just asks what the players previosu amount of $LOUCOIN is and how many hits they had for the game
+It will loop until 'q' is entered when it asks the players previous amount of LouCoin
 '''
 import sys
 louCoin = 1.3794370
