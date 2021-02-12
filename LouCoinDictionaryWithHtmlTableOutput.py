@@ -4,37 +4,6 @@ Created on Thu Feb 11 14:00:52 2021
 
 @author: ztand
 
-It would be absolutely nuts if i got this to work.
-I'm gonna try to format the output as an html table.
-Godspeed. Let's give it a try.
-
-Also, the name of this file is actually hilarous
-
-
-ALSO, this might be the most unorginized file i've ever done. Lfg.
-"""
-
-#Beofre i toss any real code in here i'm gonna try to format a comma seperated list first
-#What we in the industry call ''''getting our feet wet''''
-
-#Below is the first code I wrote to test out my methods
-'''
-str = "Otto Koivula, 1.37879537"
-lottaGuys = ["Otto Koivula, 1.37879537","Otto Koivula, 1.37879537","Otto Koivula, 1.37879537","Otto Koivula, 1.37879537","Otto Koivula, 1.37879537"]
-
-table ='' 
-for guy in lottaGuys:
-    guySplit = guy.split(",")
-    table+= "<tr><td>" + guySplit[0]+"</td><td>" + guySplit[1] + "</td></tr>" + "\n"
-
-
-print (table)
-'''
-
-"""
-IT WORKS!!!!!!!
-
-BUT IT TAKES SO LONG TO RUN!!!!!!
 """
 from sportsipy.nhl.roster import Player, Roster
 
