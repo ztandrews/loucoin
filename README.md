@@ -1,5 +1,17 @@
 # LouCoin Calculator
-### LouCoin Calculations Code
+### About The Files
+
+There are 3 different files within this repo:
+- LouCoinDictionary.py
+- LouCoinManualCalculations.py
+- LouCoinDictionaryWithHtmlOutput.py
+
+LouCoinDictionary.py and LouCoinDictionaryWithHtmlOutput.py both virtually do the same thing. The only difference is how the ooutput is formatted.
+
+LouCoinManualCalculations is code for when I want to manually calculate a players LouCoin.
+
+### About The Program
+
 This is a simple python code that calculates every New York Islanders palyers LouCoin amount.
 
 LouCoin is an advanced metric created by the [Obstructed Views Podcast](https://open.spotify.com/show/2msToI7dfUmcxExi8TC6Z8) that measuers a hockey teams hits and grit, which is what New York Islanders hockey is all about. It is calculated as:
