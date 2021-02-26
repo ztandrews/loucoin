@@ -20,9 +20,15 @@ for a in islanders.players:
  
 #Current value of 1 LouCoin. Will change based on what OV_Pod says
 louCoin = 1.3794370
-#Calculate LouCoin
+
+'''
+---Calculate LouCoin---
+- @param Player - A player from iroster is passed in
+- @return - The players LouCoin, which is: players hits*current value of LouCoin
+'''
 def calculateLouCoin(Player):
     return Player.hits_at_even_strength*louCoin
+
 
 
 #List of players that are either not skaters or have never played
