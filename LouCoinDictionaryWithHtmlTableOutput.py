@@ -67,4 +67,5 @@ sortByValue()
 print()
 print("Total LouCoin Mined:")
 print(totalLouCoin)
-#Now, take the output and copy it into the list to html converter website guy
+#Now copy the output and paste into index.html of LouCoinTracker
+#If a player is missing, though, add them to the table manually
